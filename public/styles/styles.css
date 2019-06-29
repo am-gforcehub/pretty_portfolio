@@ -1,3 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
+@font-face {
+  font-family: "brave";
+  src: url("../img/Brave\ Strong.ttf") format("truetype");
+}
+
+html {
+  background: #222;
+  height: 100%;
+  background-position: fixed;
+  overflow-y: scroll;
+}
+
+body {
+  background: none;
+  line-height: 1.5;
+  color: #f5f5f5;
+  font-family: "Source Sans Pro", sans-serif;
+}
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
@@ -6,4 +26,61 @@
 footer {
   background-color: #f2f2f2;
   padding: 25px;
+}
+
+.navbar {
+  background: #222;
+  color: #f5f5f5;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: #f5f5f5;
+}
+
+.nav-right {
+  float: right;
+}
+
+.jumbotron {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "brave";
+  background-color: #222 !important;
+  color: #f5f5f5;
+}
+
+.aboutMeImg {
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding-right: 15px;
+  border-radius: 50%;
+  border: solid 3px gray;
+  shape-outside: inset(1% round 50%);
+  margin-right: 20px;
+}
+img {
+  height: 508px;
+  background-color: #f5f5f5;
+}
+.card-img-top {
+  height: 200px;
+}
+.aboutMe {
+  text-align: center;
+  font-family: "brave";
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.inspired {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "brave";
+  padding: 5px;
+  font-size: 1.2rem;
 }
